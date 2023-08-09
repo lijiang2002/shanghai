@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbe097cf-d531-414d-ad20-6f052c499b5c" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Vue Single File Component" />
+        <option value="Class" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="C:\Users\LiJiang\Documents\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SVgd6K6ndemzYdtPfDYQzOsYUS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LiJiang/Desktop/20230724定制模拟考试系统/OrderSystem/src/main/java/com/example/ordersystem/config&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4a06dc7cc9023797891780b22bf6fd28&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\LiJiang\\Desktop\\20230724定制模拟考试系统\\order-system\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LiJiang\Desktop\20230724定制模拟考试系统\OrderSystem\src\main\java\com\example\ordersystem\config" />
+      <recent name="C:\Users\LiJiang\Desktop\20230724定制模拟考试系统\order-system\public" />
+      <recent name="C:\Users\LiJiang\Desktop\20230724定制模拟考试系统\order-system\src\api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ordersystem.services.impl" />
+      <recent name="com.example.ordersystem.services" />
+      <recent name="com.example.ordersystem.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderSystemApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="订单系统" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="订单系统" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="OrderSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ordersystem.OrderSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/order-system/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/order-system/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bbe097cf-d531-414d-ad20-6f052c499b5c" name="更改" comment="" />
+      <created>1689237246301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689237246301</updated>
+      <workItem from="1689237247704" duration="38000" />
+      <workItem from="1689237408265" duration="1633000" />
+      <workItem from="1689245601162" duration="79000" />
+      <workItem from="1689388643759" duration="4000" />
+      <workItem from="1689401266040" duration="12000" />
+      <workItem from="1689401320737" duration="11000" />
+      <workItem from="1690773779301" duration="24000" />
+      <workItem from="1690774611598" duration="15972000" />
+      <workItem from="1690853321805" duration="7679000" />
+      <workItem from="1690935229044" duration="20102000" />
+      <workItem from="1691114702070" duration="1629000" />
+      <workItem from="1691116360633" duration="22168000" />
+      <workItem from="1691200485128" duration="20613000" />
+      <workItem from="1691226411790" duration="599000" />
+      <workItem from="1691287754630" duration="6000" />
+      <workItem from="1691289257297" duration="25000" />
+      <workItem from="1691289575943" duration="387000" />
+      <workItem from="1691289982652" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

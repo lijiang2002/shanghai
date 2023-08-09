@@ -1,0 +1,59 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.1:3306/yilei?serverTimezone=UTC
+    username: root
+    password: qwerqaz123..
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    # Druid 连接池配置
+    druid:
+      initial-size: 5 # 初始化时创建的连接数
+      min-idle: 5 # 连接池中保持的最小空闲连接数
+      max-active: 20 # 连接池中允许的最大活跃连接数。
+      max-wait: 60000 # 获取连接的最大等待时间，超过该时间将抛出异常
+      validation-query: SELECT 1
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+#==============================mybatis plus配置==============================
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#==============================Sa-Token配置==============================
+sa-token:
+  # token名称 (同时也是cookie名称)
+  token-name: items-token
+  # token有效期，单位s 默认30天, -1代表永不过期
+  timeout: -1
+  # token临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
+  activity-timeout: -1
+  # 是否允许同一账号并发登录 (为true时允许一起登录, 为false时新登录挤掉旧登录)
+  is-concurrent: false
+  # 在多人登录同一账号时，是否共用一个token (为true时所有登录共用一个token, 为false时每次登录新建一个token)
+  is-share: false
+  # token风格
+  token-style: random-128
+  # 是否输出操作日志
+  is-log: true
+  # 同一账号最大登录数量，-1代表不限 （只有在 isConcurrent=true, isShare=false 时此配置才有效） 默认 12
+  max-login-count: 2
+  # 是否尝试从 请求体 里读取 Token 默认 true
+  is-read-body: true
+  # 是否尝试从 header 里读取 Token 默认 true
+  is-read-header: true
+  # 是否尝试从 cookie 里读取 Token，此值为 false 后，StpUtil.login(id) 登录时也不会再往前端注入Cookie
+  is-read-cookie: true
+  # 是否在登录后将 Token 写入到响应头 默认 false
+  is-write-header: false
+  # 默认数据持久组件实现类中，每次清理过期数据间隔的时间 （单位: 秒） ，默认值30秒，设置为-1代表不启动定时清理
+  data-refresh-period: 30
+  # 获取 Token-Session 时是否必须登录 （如果配置为true，会在每次获取 Token-Session 时校验是否登录）
+  token-session-check-login: true
+  # 是否在初始化配置时打印版本字符画
+  is-print: false
+
+upload-path:
+  icon: C:\sys_upload\
